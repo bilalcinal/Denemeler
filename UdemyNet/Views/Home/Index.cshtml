@@ -1,6 +1,6 @@
 @{
     int age = 22 ;
-    string value = string.Empty;
+    @* string value = string.Empty;
     if(age > 18)
     {
         value = "18 yaşından büyük";
@@ -8,9 +8,9 @@
     else 
     {
         value = "18 yaşından küçük";
-    }
+    } *@
 }
 
    <p>
-       Durum = @value
+       Durum = @(age>18?"18 yaşından büyük":"18 yaşından küçük")
    </p>
