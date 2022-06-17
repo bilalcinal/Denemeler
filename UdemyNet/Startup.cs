@@ -39,7 +39,7 @@ namespace UdemyNet
                 endpoint.MapControllerRoute(
                     name:"default",
                     pattern:"{Controller}/{Action}",
-                    defaults: new {Controller="home",Action="Index"}
+                    defaults: new {Controller="Home",Action="Index"}
                 );
              }
 
