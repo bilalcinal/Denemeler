@@ -8,5 +8,11 @@ namespace UdemyNet.Controllers
         {
                return View();
         }
+
+        public IActionResult Bilal()
+        {
+             return View();
+
+        }
     }
 }

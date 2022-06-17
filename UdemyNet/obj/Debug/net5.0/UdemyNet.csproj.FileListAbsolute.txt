@@ -20,3 +20,15 @@ C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\ref\Udem
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.pdb
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.genruntimeconfig.cache
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\refint\UdemyNet.dll
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\bin\Debug\net5.0\UdemyNet.Views.dll
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\bin\Debug\net5.0\UdemyNet.Views.pdb
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.RazorAssemblyInfo.cache
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.RazorAssemblyInfo.cs
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.TagHelpers.input.cache
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.TagHelpers.output.cache
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.RazorCoreGenerate.cache
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Home\Bilal.cshtml.g.cs
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.RazorTargetAssemblyInfo.cs
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.Views.pdb
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.csproj.CopyComplete

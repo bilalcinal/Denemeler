@@ -15617,6 +15617,17 @@
     "CSharpLanguageVersion": 900
   },
   "RootNamespace": "UdemyNet",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Home\\Bilal.cshtml",
+      "TargetPath": "Views\\Home\\Bilal.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }
