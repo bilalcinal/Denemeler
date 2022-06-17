@@ -19,5 +19,4 @@ C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\ref\UdemyNet.dll
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.pdb
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.genruntimeconfig.cache
-C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\bin\Debug\net5.0\UdemyNet.StaticWebAssets.xml
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\refint\UdemyNet.dll
