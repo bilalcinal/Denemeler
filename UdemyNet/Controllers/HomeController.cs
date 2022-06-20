@@ -12,10 +12,10 @@ namespace UdemyNet.Controllers
             TempData["Name"] = "Cinal";
 
             Customer customer = new() {Age = 22 , Name="Bilal",Surname="Cinal "};
-               return View("Buğra" ,customer);
+               return RedirectToAction("Index" , "Product" , new {@id=1});
         }
 
-        public IActionResult Bilal()
+        public IActionResult Bilal(int id)
         {
              return View();
 
