@@ -8,6 +8,7 @@ namespace UdemyNet.Controllers
         {
             ViewBag.Name = " Bilal";
             ViewData["Name"] = "Hakkı";
+            TempData["Name"] = "Cinal";
                return View();
         }
 
