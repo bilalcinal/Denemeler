@@ -12,7 +12,7 @@ namespace UdemyNet.Controllers
             TempData["Name"] = "Cinal";
 
             Customer customer = new() {Age = 22 , Name="Bilal",Surname="Cinal "};
-               return View(customer);
+               return View("Buğra" ,customer);
         }
 
         public IActionResult Bilal()
