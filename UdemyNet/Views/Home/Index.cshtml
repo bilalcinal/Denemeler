@@ -1,3 +1,5 @@
+@model UdemyNet.Models.Customer 
+
 @{
     //int age = 22 ;
     @* string value = string.Empty;
@@ -22,6 +24,16 @@
      <p>
        TempData = @TempData["Name"]
      </p>
+     <hr/>
+     <P>
+        Name = @Model.Name
+        <br />
+        <hr />
+        Surname = @Model.Surname
+        <br />
+        <hr />
+        Age = @Model.Age
+     </P>
 
    @* <p>
        Durum = @(age>18?"18 yaşından büyük":"18 yaşından küçük")

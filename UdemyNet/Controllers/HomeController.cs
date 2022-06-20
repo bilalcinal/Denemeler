@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using UdemyNet.Models;
 
 namespace UdemyNet.Controllers
 {
@@ -9,7 +10,9 @@ namespace UdemyNet.Controllers
             ViewBag.Name = " Bilal";
             ViewData["Name"] = "Hakkı";
             TempData["Name"] = "Cinal";
-               return View();
+
+            Customer customer = new() {Age = 22 , Name="Bilal",Surname="Cinal "};
+               return View(customer);
         }
 
         public IActionResult Bilal()
