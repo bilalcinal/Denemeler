@@ -6,6 +6,7 @@ namespace UdemyNet.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.Name = " Bilal";
                return View();
         }
 
