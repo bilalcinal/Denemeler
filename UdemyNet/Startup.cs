@@ -34,16 +34,25 @@ namespace UdemyNet
             // Localhost/home/Index
             
              app.UseRouting();
-             app.UseEndpoints(endpoint=>
-             {
-                endpoint.MapControllerRoute(
-                    name:"default",
-                    pattern:"{Controller}/{Action}",
-                    defaults: new {Controller="Home",Action="Index"}
-                );
-             }
+             app.UseEndpoints(endpoints=>
+           {  
+            
+            //   endpoints.MapControllerRoute(
+            //   name: "productRoute",
+            //   pattern: "Bilal/{action}",
+            //   defaults: new {Controller="Home"}
+            //   );
 
-             );
+
+             
+              endpoints.MapControllerRoute(
+                    name:"default",
+                    pattern:"{Controller}/{Action}/{id?}",
+                    defaults: new {Controller="Home",Action="Index"}
+              );
+             
+
+        });
             // app.UseMiddleware<ResponseEditingMiddleware>();
             // IApplicationBuilder applicationBuilder = app.UseMiddleware<RequestEdittingMiddleware>();
 
