@@ -34,6 +34,7 @@ namespace UdemyNet
             // Localhost/home/Index
             
              app.UseRouting();
+             app.UseStaticFiles();
              app.UseEndpoints(endpoints=>
            {  
             

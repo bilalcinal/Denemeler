@@ -1,5 +1,12 @@
 @model List<UdemyNet.Models.Customer> 
-    <table>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Customer-List</title>
+        <link href="~/style.css"rel="stylesheet"/>
+    </head>
+    <body>
+        <table>
         <tr>
             <th>Name</th>
             <th>Surname</th>
@@ -13,4 +20,8 @@
                    <td>@item.Age</td>
             </tr>
         }
-    </table>
+        </table>
+
+    </body>
+</html>
+   
