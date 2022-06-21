@@ -7,15 +7,9 @@ namespace UdemyNet.Controllers
     {
         public IActionResult Index()
         {
-
-            var id = (string)RouteData.Values["id"];
-
-            ViewBag.Name = " Bilal";
-            ViewData["Name"] = "Hakkı";
-            TempData["Name"] = "Cinal";
-
-            Customer customer = new() {Age = 22 , Name="Bilal",Surname="Cinal "};
-               return View(customer);
+            var customers = CustomerContext.Customers;  
+            
+            return View(customers);
         }
 
         public IActionResult Bilal(int id)

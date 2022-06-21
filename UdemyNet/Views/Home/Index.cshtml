@@ -1,40 +1,16 @@
-@model UdemyNet.Models.Customer 
-
-@{
-    //int age = 22 ;
-    @* string value = string.Empty;
-    if(age > 18)
-    {
-        value = "18 yaşından büyük";
-    }
-    else 
-    {
-        value = "18 yaşından küçük";
-    } *@
-}
-
-    <p>
-       ViewBag =  @ViewBag.Name
-    </p>
-    <hr />
-    <p>
-       ViewData =  @ViewData["Name"] 
-    </p>
-    <hr />
-     <p>
-       TempData = @TempData["Name"]
-     </p>
-     <hr/>
-     <P>
-        Name = @Model.Name
-        <br />
-        <hr />
-        Surname = @Model.Surname
-        <br />
-        <hr />
-        Age = @Model.Age
-     </P>
-
-   @* <p>
-       Durum = @(age>18?"18 yaşından büyük":"18 yaşından küçük")
-   </p> *@
+@model List<UdemyNet.Models.Customer> 
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Age</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                   <td>@item.Name</td>
+                   <td>@item.Surname</td>
+                   <td>@item.Age</td>
+            </tr>
+        }
+    </table>
