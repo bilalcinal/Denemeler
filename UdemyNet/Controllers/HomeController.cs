@@ -7,6 +7,9 @@ namespace UdemyNet.Controllers
     {
         public IActionResult Index()
         {
+
+            var id = (string)RouteData.Values["id"];
+
             ViewBag.Name = " Bilal";
             ViewData["Name"] = "Hakkı";
             TempData["Name"] = "Cinal";
