@@ -15627,6 +15627,11 @@
       "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Shared\\Buğra.cshtml",
+      "TargetPath": "Views\\Shared\\Buğra.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
