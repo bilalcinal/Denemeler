@@ -40,7 +40,7 @@ namespace UdemyNet
              app.UseStaticFiles();
              app.UseStaticFiles(new StaticFileOptions
              {
-                 RequestPath = "/nodem_modules",
+                 RequestPath = "/node_modules",
                  FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "node_modules"))
              });
              app.UseEndpoints(endpoints=>
