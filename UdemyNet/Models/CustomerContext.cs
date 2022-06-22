@@ -6,9 +6,9 @@ namespace UdemyNet.Models
     {
         public static List<Customer> Customers = new()
         {
-          new Customer {Name="Bilal", Surname="Cinal", Age=22},
-          new Customer {Name="Enis", Surname="Cinal", Age=19},
-          new Customer {Name="Buğra", Surname="Cinal", Age=10}
+          new Customer {Id=1 ,Name="Bilal", Surname="Cinal", Age=22},
+          new Customer {Id=2 ,Name="Enis", Surname="Cinal", Age=19},
+          new Customer {Id=3 ,Name="Buğra", Surname="Cinal", Age=10}
         };
     }
 }

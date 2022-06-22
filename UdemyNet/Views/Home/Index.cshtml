@@ -10,12 +10,14 @@
 
     </head>
     <body>
+        <a href="Home/Create">ekle</a>
         <table class="table table-hover table-bordered">
             <thead>
                 <tr>
                    <th>Name</th>
                    <th>Surname</th>
                    <th>Age</th>
+                   <th></th>
                 </tr>
 
             </thead>
@@ -26,6 +28,10 @@
                    <td>@item.Name</td>
                    <td>@item.Surname</td>
                    <td>@item.Age</td>
+                   <td>
+                       <a href="Home/Update/@item.Id">Güncelle</a>
+                       <a href="Home/Remove/@item.Id">Sil</a>
+                   </td>
                 </tr>
                 }
             </tbody>
