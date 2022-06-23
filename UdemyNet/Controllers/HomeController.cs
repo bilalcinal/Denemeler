@@ -4,18 +4,26 @@ using UdemyNet.Models;
 namespace UdemyNet.Controllers
 {
     public class HomeController:Controller
-    {
+    { 
+        [HttpGet]
         public IActionResult Index()
         {
             var customers = CustomerContext.Customers;  
             
             return View(customers);
         }
-
-        public IActionResult Bilal(int id)
+        [HttpGet]
+        public IActionResult Create()
         {
-             return View();
-
+            return View();
         }
+      
+       [HttpPost]
+        public IActionResult CreatWithForm()
+      
+        {
+          return RedirectToAction("Create");
+        }
+
     }
 }

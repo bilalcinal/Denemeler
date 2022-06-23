@@ -1,0 +1,36 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+      <title>Create Customer</title>
+       <link href="~/node_modules/bootstrap/dist/css/bootstrap.min.css"rel="stylesheet"/>
+ </head>
+ <body>
+    <div class="container">
+        <h3>Create Customer</h3>
+
+
+        <form action="/Home/CreateWithForm" method="post">
+          <div class="form-group">
+              <label>Customer Name:</label>
+              <İnput type="text" name="name" class="form-control"/>
+          </div>
+
+          <div class="form-group">
+              <label>Customer Surname:</label>
+              <İnput type="text" name="surname" class="form-control"/>
+          </div>
+
+
+          <div class="form-group">
+              <label>Customer Age:</label>
+              <İnput type="text" name="age" class="form-control"/>
+          </div>
+
+          <div class="form-group text-right">
+              <button type="submit" class="btn btn-primary">Create</button>
+          </div>
+
+        </form>
+    </div>
+
+ </body>
+</html>
