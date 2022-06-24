@@ -19,17 +19,27 @@ namespace UdemyNet.Controllers
             return View();
         }
       
-       [HttpPost]
-        public IActionResult CreatWithForm()
+        
+        [HttpPost]
+        public IActionResult CreateWithForm()
       
         {
             var name = HttpContext.Request.Form["name"].ToString();
             var surname = HttpContext.Request.Form["surname"].ToString();
             var age = int.Parse(HttpContext.Request.Form["age"].ToString());
 
-            var lastCustomer=CustomerContext.Customers.Last();
-
-            var id=lastCustomer.Id+1;
+          Customer lastCustomer = null;
+          if(CustomerContext.Customers.Count >0)
+          {
+               lastCustomer = CustomerContext.Customers.Last();
+          }
+           int id=1;
+          
+            if(lastCustomer != null)
+            {
+              id= lastCustomer.Id+1;
+            }
+            
 
           CustomerContext.Customers.Add(new Customer
            {
@@ -40,7 +50,17 @@ namespace UdemyNet.Controllers
             });
   
             
-          return RedirectToAction("Create");
+          return RedirectToAction("Index");
+        }
+       
+        [HttpGet]
+        public IActionResult Remove()
+        
+        {
+           var id = int.Parse(RouteData.Values["id"].ToString());
+           var removedCustomer =  CustomerContext.Customers.Find(I =>I.Id == id);
+           CustomerContext.Customers.Remove(removedCustomer);
+             return RedirectToAction("Index");
         }
 
     }
