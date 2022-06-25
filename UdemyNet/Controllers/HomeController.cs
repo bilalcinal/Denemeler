@@ -68,8 +68,8 @@ namespace UdemyNet.Controllers
         public IActionResult Update()
         {
           var id=int.Parse(RouteData.Values["id"].ToString());
-          var updatedPersonel = CustomerContext.Customers.FirstOrDefault(a=> a.Id == id);
-          return View(updatedPersonel);
+          var updatedCustomer = CustomerContext.Customers.FirstOrDefault(a=> a.Id == id);
+          return View(updatedCustomer);
         }
    
     }
