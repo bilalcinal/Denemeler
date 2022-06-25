@@ -63,5 +63,14 @@ namespace UdemyNet.Controllers
              return RedirectToAction("Index");
         }
 
+        [HttpGet]
+        
+        public IActionResult Update()
+        {
+          var id=int.Parse(RouteData.Values["id"].ToString());
+          var updatedPersonel = CustomerContext.Customers.FirstOrDefault(a=> a.Id == id);
+          return View(updatedPersonel);
+        }
+   
     }
 }
