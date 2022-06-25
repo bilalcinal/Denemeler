@@ -1,4 +1,6 @@
+@using UdemyNet.Models
 @addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@model Customer
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
       <title>Create Customer</title>
@@ -9,21 +11,21 @@
         <h3>Create Customer</h3>
 
 
-        <form asp-action="CreateWithForm" asp-controller="Home" method="post">
+        <form asp-action="Create" asp-controller="Home" method="post">
           <div class="form-group">
               <label>Customer Name:</label>
-              <input type="text" name="name" class="form-control"/>
+              <input asp-for="@Model.Name" class="form-control"/>
           </div>
 
           <div class="form-group">
               <label>Customer Surname:</label>
-              <input type="text" name="surname" class="form-control"/>
+              <input asp-for="@Model.Surname" class="form-control"/>
           </div>
 
 
           <div class="form-group">
               <label>Customer Age:</label>
-              <input type="text" name="age" class="form-control"/>
+              <input asp-for="@Model.Age" class="form-control"/>
           </div>
 
           <div class="form-group text-right">

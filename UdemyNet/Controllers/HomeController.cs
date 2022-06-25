@@ -16,48 +16,42 @@ namespace UdemyNet.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            return View(new Customer());
         }
       
         
         [HttpPost]
-        public IActionResult CreateWithForm()
+        public IActionResult Create(Customer customer)
       
         {
-            var name = HttpContext.Request.Form["name"].ToString();
-            var surname = HttpContext.Request.Form["surname"].ToString();
-            var age = int.Parse(HttpContext.Request.Form["age"].ToString());
+            // var name = HttpContext.Request.Form["name"].ToString();
+            // var surname = HttpContext.Request.Form["surname"].ToString();
+            // var age = int.Parse(HttpContext.Request.Form["age"].ToString());
 
           Customer lastCustomer = null;
           if(CustomerContext.Customers.Count >0)
           {
                lastCustomer = CustomerContext.Customers.Last();
           }
-           int id=1;
+           customer.Id=1;
           
             if(lastCustomer != null)
             {
-              id= lastCustomer.Id+1;
+              customer.Id= lastCustomer.Id+1;
             }
             
 
-          CustomerContext.Customers.Add(new Customer
-           {
-              Age = age,
-              Id = id,
-              Name = name,
-              Surname = surname
-            });
+          CustomerContext.Customers.Add(customer);
   
             
           return RedirectToAction("Index");
         }
        
         [HttpGet]
-        public IActionResult Remove()
+        public IActionResult Remove(int id)
         
         {
-           var id = int.Parse(RouteData.Values["id"].ToString());
+          //  var id = int.Parse(RouteData.Values["id"].ToString());
            var removedCustomer =  CustomerContext.Customers.Find(I =>I.Id == id);
            CustomerContext.Customers.Remove(removedCustomer);
              return RedirectToAction("Index");
@@ -65,22 +59,28 @@ namespace UdemyNet.Controllers
 
         
         [HttpGet]
-        public IActionResult Update()
+        public IActionResult Update(int id)
         {
-          var id=int.Parse(RouteData.Values["id"].ToString());
+          // var id=int.Parse(RouteData.Values["id"].ToString());
           var updatedCustomer = CustomerContext.Customers.FirstOrDefault(a=> a.Id == id);
           return View(updatedCustomer);
         }
 
         
        [HttpPost]
-        public IActionResult UpdateCustomer()
+        public IActionResult Update(Customer customer)
         {
-            var id=int.Parse(HttpContext.Request.Form["id"].ToString());
-            var updatedCustomer = CustomerContext.Customers.FirstOrDefault(I=>I.Id == id);
-            updatedCustomer.Name=HttpContext.Request.Form["name"].ToString();
-            updatedCustomer.Surname=HttpContext.Request.Form["surname"].ToString();
-            updatedCustomer.Age=int.Parse(HttpContext.Request.Form["age"].ToString());
+            // var id=int.Parse(HttpContext.Request.Form["id"].ToString());
+
+            var updatedCustomer = CustomerContext.Customers.FirstOrDefault(I=>I.Id == customer.Id);
+
+            // updatedCustomer.Name=HttpContext.Request.Form["name"].ToString();
+            // updatedCustomer.Surname=HttpContext.Request.Form["surname"].ToString();
+            // updatedCustomer.Age=int.Parse(HttpContext.Request.Form["age"].ToString());
+            updatedCustomer.Name = customer.Name;
+            updatedCustomer.Surname = customer.Surname;
+            updatedCustomer.Age = customer.Age;
+
             return RedirectToAction("Index");
 }
    
