@@ -1,3 +1,4 @@
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>
       <title>Create Customer</title>
@@ -8,7 +9,7 @@
         <h3>Create Customer</h3>
 
 
-        <form action="/Home/CreateWithForm" method="post">
+        <form asp-action="CreateWithForm" asp-controller="Home" method="post">
           <div class="form-group">
               <label>Customer Name:</label>
               <input type="text" name="name" class="form-control"/>
