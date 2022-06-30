@@ -15619,8 +15619,8 @@
   "RootNamespace": "UdemyNet",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Home\\Bilal.cshtml",
-      "TargetPath": "Views\\Home\\Bilal.cshtml",
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Folder\\List.cshtml",
+      "TargetPath": "Views\\Folder\\List.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15629,8 +15629,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Shared\\Buğra.cshtml",
-      "TargetPath": "Views\\Shared\\Buğra.cshtml",
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Home\\Create.cshtml",
+      "TargetPath": "Views\\Home\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Home\\Update.cshtml",
+      "TargetPath": "Views\\Home\\Update.cshtml",
       "FileKind": "mvc"
     }
   ],

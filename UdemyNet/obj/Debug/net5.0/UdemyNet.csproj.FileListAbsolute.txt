@@ -27,8 +27,14 @@ C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.TagHelpers.input.cache
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.TagHelpers.output.cache
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.RazorCoreGenerate.cache
-C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Home\Bilal.cshtml.g.cs
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.RazorTargetAssemblyInfo.cs
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.Views.pdb
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\UdemyNet.csproj.CopyComplete
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\bin\Debug\net5.0\package-lock.json
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\bin\Debug\net5.0\package.json
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Home\Update.cshtml.g.cs
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Folder\List.cshtml.g.cs
