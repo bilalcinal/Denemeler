@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,6 +27,17 @@ namespace UdemyNet.Controllers
              if(!fileInfo.Exists)
                 fileInfo.Create();
             return RedirectToAction("List");
+        }
+
+        public IActionResult CreateWithData()
+        {
+            FileInfo fileInfo = new FileInfo(Path.Combine(Directory.GetCurrentDirectory(),"wwwroot","files", 
+            Guid.NewGuid().ToString()+".txt"));
+
+            StreamWriter writer= fileInfo.CreateText();
+            writer.Write("Merhaba ben Bilal");
+            writer.Close();
+            return RedirectToAction("list");
         }
     }
 }
