@@ -30,6 +30,16 @@ namespace UdemyNet.Controllers
             return RedirectToAction("List");
         }
 
+        public IActionResult Remove(string fileName)
+        {
+            FileInfo fileInfo = new FileInfo(Path.Combine(Directory.GetCurrentDirectory(),"wwwroot","files", fileName));
+            if(fileInfo.Exists)
+            {
+                fileInfo.Delete();
+            }
+            return RedirectToAction("list");
+        }
+
         public IActionResult CreateWithData()
         {
             FileInfo fileInfo = new FileInfo(Path.Combine(Directory.GetCurrentDirectory(),"wwwroot","files", 
