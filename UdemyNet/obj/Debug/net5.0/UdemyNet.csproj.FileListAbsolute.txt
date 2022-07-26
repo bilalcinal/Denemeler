@@ -46,3 +46,5 @@ C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Vi
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Shared\Components\News\Default.cshtml.g.cs
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Shared\Components\News\blue.cshtml.g.cs
 C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Views\Shared\Components\News\red.cshtml.g.cs
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\obj\Debug\net5.0\Razor\Areas\Member\Views\Home\Index.cshtml.g.cs

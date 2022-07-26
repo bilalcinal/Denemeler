@@ -15697,6 +15697,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\File\\Upload.cshtml",
       "TargetPath": "Views\\File\\Upload.cshtml",
       "FileKind": "mvc"
@@ -15734,6 +15739,11 @@
     {
       "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Shared\\_NewsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_NewsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Areas\\Member\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Areas\\Member\\Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

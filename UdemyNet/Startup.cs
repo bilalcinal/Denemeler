@@ -46,13 +46,19 @@ namespace UdemyNet
              app.UseEndpoints(endpoints=>
            {  
             
+
+
             //   endpoints.MapControllerRoute(
             //   name: "productRoute",
             //   pattern: "Bilal/{action}",
             //   defaults: new {Controller="Home"}
             //   );
 
+               endpoints.MapControllerRoute(
+                 name:"areas",
+                 pattern:"{Area}/{Controller=Home}/{Action=Index}/{id?}"
 
+               );
              
               endpoints.MapControllerRoute(
                     name:"default",
