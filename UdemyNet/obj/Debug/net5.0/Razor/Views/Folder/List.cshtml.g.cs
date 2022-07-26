@@ -13,21 +13,21 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 2 "C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\Views\_ViewImports.cshtml"
+#line 3 "C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\Views\_ViewImports.cshtml"
 using UdemyNet.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\Views\_ViewImports.cshtml"
+#line 4 "C:\Users\hbila\OneDrive\Masaüstü\Udemy kurs\UdemyNet\Views\_ViewImports.cshtml"
 using System.IO;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1cbf61a413c9fcfad62e4c867ed3718dcdd19615", @"/Views/Folder/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2e8fb1786d09c0dbb50b1156d8deb94ce26a67aa", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e66128e475887d8cb7dc6cba5fa917702ac5b718", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Folder_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DirectoryInfo[]>
     #nullable disable

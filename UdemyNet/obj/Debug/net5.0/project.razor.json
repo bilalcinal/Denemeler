@@ -11400,6 +11400,32 @@
         }
       },
       {
+        "HashCode": 1724075903,
+        "Kind": "ITagHelper",
+        "Name": "UdemyNet.TagHelpers.ParagraphTagHelper",
+        "AssemblyName": "UdemyNet",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "paragraph"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "short-description",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "ShortDescription"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "UdemyNet.TagHelpers.ParagraphTagHelper"
+        }
+      },
+      {
         "HashCode": -1132855933,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
@@ -13566,7 +13592,7 @@
         }
       },
       {
-        "HashCode": -837770434,
+        "HashCode": 617375385,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__NewsViewComponentTagHelper",
         "AssemblyName": "UdemyNet",
@@ -13574,6 +13600,16 @@
         "TagMatchingRules": [
           {
             "TagName": "vc:news"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "color",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "color"
+            }
           }
         ],
         "Metadata": {
@@ -15636,6 +15672,11 @@
   "RootNamespace": "UdemyNet",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Shared\\Components\\News\\blue.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\News\\blue.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Folder\\List.cshtml",
       "TargetPath": "Views\\Folder\\List.cshtml",
       "FileKind": "mvc"
@@ -15658,6 +15699,11 @@
     {
       "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\File\\Upload.cshtml",
       "TargetPath": "Views\\File\\Upload.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Shared\\Components\\News\\red.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\News\\red.cshtml",
       "FileKind": "mvc"
     },
     {
