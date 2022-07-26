@@ -13566,6 +13566,23 @@
         }
       },
       {
+        "HashCode": -837770434,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__NewsViewComponentTagHelper",
+        "AssemblyName": "UdemyNet",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:news"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__NewsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "News"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -15624,8 +15641,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Shared\\Components\\News\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\News\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\File\\List.cshtml",
+      "TargetPath": "Views\\File\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\File\\Upload.cshtml",
+      "TargetPath": "Views\\File\\Upload.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15639,8 +15671,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Folder\\Create.cshtml",
+      "TargetPath": "Views\\Folder\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\File\\Create.cshtml",
+      "TargetPath": "Views\\File\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\Views\\Shared\\_NewsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_NewsPartial.cshtml",
       "FileKind": "mvc"
     },
     {

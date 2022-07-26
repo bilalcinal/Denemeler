@@ -2,31 +2,36 @@
 @{
     Layout= "~/Views/Shared/_Layout.cshtml";
 }
-
 <a asp-action="Create">Create</a>
-
-<table class="table table-hover table-bordered">
-       <thead> 
-        <tr>
-             <th>Ad</th>
-             <th>Oluşturulma Zamanı </th>
-             <th>Path</th>
-             <th></th>
-        </tr>
+<div class="row">
+    <div class=col-4>
+        @await Component.InvokeAsync("News")
+       @* <partial name="_NewsPartial" model="NewsContext.List"/> *@
+    </div>
+    <div class="col-8">
+      <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>ad</th>
+                <th>oluşturulma tarihi</th>
+                <th>Path</th>
+                <th></th>
+            </tr>
         </thead>
         <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
+            @foreach (var item in Model)
+            {
+                <tr>
                     <td>@item.Name</td>
                     <td>@item.CreationTime</td>
                     <td>@item.FullName</td>
                     <td>
-                         <a asp-action="Remove" asp-route-fileName="@item.Name">Remove</a>
+                        <a asp-action="Remove" asp-route-fileName="@item.Name">Remove</a>
                     </td>
-            </tr>   
-        }
+                </tr>
+
+            }
         </tbody>
-      
-      
-</table>
+      </table>
+    </div>
+</div>

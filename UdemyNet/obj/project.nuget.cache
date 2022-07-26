@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LfZfQhRvvch87yb84X20EYsLFtAv6KZUVpfoBCWAmeVebD162eeRPhAQ7XAsfWVUjntMEMPosO+Ugx/gNhHdgA==",
+  "dgSpecHash": "60eLbcfN1mJjy0d16+yVOOpgjT6Q/PtuNvVPeZaVTDx32enLSHiY5zXdqKe6vHcT3/saKnV+TE0JyjuWTOOpdQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hbila\\OneDrive\\Masaüstü\\Udemy kurs\\UdemyNet\\UdemyNet.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\hbila\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
